@@ -12,5 +12,17 @@ public class Calculator {
         return this.firstNum + this.secondNum;
     }
 
+    public double subtract(){
+        return this.firstNum - this.secondNum;
+    }
+
+    public double multiply(){
+        return this.firstNum * this.secondNum;
+    }
+
+    public double divide(){
+        return this.firstNum / this.secondNum;
+    }
+
 
 }
